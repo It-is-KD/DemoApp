@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shapelogin"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="124dp"
+        android:padding="10dp"
+        android:layout_gravity="left"
+        android:src="@drawable/database">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter Your Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter Your Surname"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_baseline_numbers_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter Marks"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_baseline_grid_3x3_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter ID"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shapesignup"
+            android:drawablePadding="10dp"
+            android:padding="15dp"
+            android:text="Add Data"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white">
+        </Button>
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:layout_margin="10dp"
+            android:background="@drawable/shapesignup"
+            android:drawablePadding="10dp"
+            android:padding="15dp"
+            android:text="Update Data"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shapesignup"
+            android:drawablePadding="10dp"
+            android:padding="15dp"
+            android:text="Delete Data"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white">
+        </Button>
+
+        <Button
+            android:id="@+id/button_view"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shapesignup"
+            android:drawablePadding="10dp"
+            android:padding="15dp"
+            android:text="View Data"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white">
+        </Button>
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/simpleSwitch"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shapelogin"
+        android:text="Switch">
+    </Switch>
+
+</LinearLayout>
